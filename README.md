@@ -4,7 +4,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -39,12 +38,7 @@ this project is created to show a to do list and...
 - **[A wonderfull codeing stracture]**
 - **[Dividing the project into small pecies]**
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-<!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- GETTING STARTED -->
@@ -87,9 +81,9 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[]**
-- [ ] **[]**
-- [ ] **[]**
+- [ ] **[Used Webpack]**
+- [ ] **[Used array of object data structure to store data]**
+- [ ] **[Followed the ES6 best practise]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
