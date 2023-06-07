@@ -1,3 +1,72 @@
-    .hello {
-        color: red;
-    }
+body {
+    box-sizing: border-box;
+    background-color: lightgray;
+}
+
+.container {
+    width: 600px;
+    height: 100vh;
+    scroll-behavior: auto;
+    margin: 100px auto;
+    background-color: white;
+    padding: 10px;
+}
+
+fieldset {
+    border: none;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.title span {
+    font-size: 20px;
+    color: black;
+}
+
+.AddtodoInput {
+    position: relative;
+}
+
+fieldset input {
+    width: 97%;
+    margin: 5px;
+    padding: 15px 5px;
+}
+
+.ri-corner-down-left-line {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%)
+}
+
+.label {
+    display: flex;
+    flex: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-inside-list {
+    width: 500px;
+}
+
+.checkbox {
+    width: 15px;
+    height: 15px;
+}
+
+.fa-ellipsis-v {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%)
+}
+
+.fa-ellipsis-v:hover {
+    cursor: all-scroll;
+}
