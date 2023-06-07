@@ -26,7 +26,7 @@ this project is created to show a to do list and...
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://w3cshcool.com/">HTML & CSS and JavaScript</a></li>
+    <li><a href="https://w3cshcool.com/">Webpack,HTML & CSS and JavaScript</a></li>
   </ul>
 </details>
 
@@ -44,7 +44,7 @@ this project is created to show a to do list and...
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://salarhabibi-amir.github.io/AwsomeBook/)
+- [Live Demo Link]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- GETTING STARTED -->
@@ -87,9 +87,9 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Used mobile first approach]**
-- [ ] **[Used CSS flex and grid]**
-- [ ] **[Created some section dynamicly]**
+- [ ] **[]**
+- [ ] **[]**
+- [ ] **[]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
