@@ -1,72 +1,63 @@
 body {
-  box-sizing: border-box;
-  background-color: lightgray;
+    box-sizing: border-box;
+    background-color: lightgray;
 }
 
 .container {
-  width: 600px;
-  height: 100vh;
-  scroll-behavior: auto;
-  margin: 100px auto;
-  background-color: white;
-  padding: 10px;
+    width: 600px;
+    height: 100vh;
+    scroll-behavior: auto;
+    margin: 100px auto;
+    background-color: white;
+    padding: 10px;
 }
 
 fieldset {
-  border: none;
+    border: none;
 }
 
 .title {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .title span {
-  font-size: 20px;
-  color: black;
+    font-size: 20px;
+    color: black;
 }
 
 .AddtodoInput {
-  position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 fieldset input {
-  width: 97%;
-  margin: 5px;
-  padding: 15px 5px;
+    width: 95%;
+    margin-bottom: 5px;
+    padding: 10px;
 }
 
-.ri-corner-down-left-line {
-  position: absolute;
-  top: 50%;
-  right: 20px;
-  transform: translateY(-50%);
+.btn-submit {
+    width: 100px;
+    border-radius: 10px;
 }
 
-.label {
-  display: flex;
-  flex: row;
-  justify-content: center;
-  align-items: center;
+.label-lists {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
-.input-inside-list {
-  width: 500px;
+.input-list {
+    padding: 10px;
+    width: 90%;
+    margin-bottom: 5px;
 }
 
 .checkbox {
-  width: 15px;
-  height: 15px;
-}
-
-.fa-ellipsis-v {
-  position: absolute;
-  top: 50%;
-  right: 20px;
-  transform: translateY(-50%);
-}
-
-.fa-ellipsis-v:hover {
-  cursor: all-scroll;
+    width: 20px;
+    height: 20px;
 }
