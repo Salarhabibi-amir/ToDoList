@@ -42,6 +42,5 @@
          this.updateLocalStorage();
      }
 
-
  }
  export default ToDolist;
