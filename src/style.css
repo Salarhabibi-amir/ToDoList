@@ -1,63 +1,100 @@
 body {
-    box-sizing: border-box;
-    background-color: lightgray;
-}
-
-.container {
-    width: 600px;
+    background-color: #f6f6f6;
+    font-family: sans-serif;
+    color: #333;
     height: 100vh;
-    scroll-behavior: auto;
-    margin: 100px auto;
-    background-color: white;
-    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-fieldset {
+input {
+    font-style: italic;
     border: none;
+    padding: 1em;
+    font-size: 1em;
 }
 
-.title {
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 0.3em 1em;
+    margin: 0;
+    list-style: none;
+}
+
+label {
+    margin-left: 0.5em;
+}
+
+.header,
+input,
+li {
+    border-bottom: lightgray solid 1px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-shadow: 0 0 5px 5px rgba(146, 144, 144, 0.76);
+    background-color: rgb(252, 247, 247);
+    width: 25rem;
+}
+
+.header-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-
-.title span {
-    font-size: 20px;
-    color: black;
-}
-
-.AddtodoInput {
-    display: flex;
-    flex-direction: column;
-}
-
-fieldset input {
-    width: 95%;
-    margin-bottom: 5px;
-    padding: 10px;
-}
-
-.btn-submit {
-    width: 100px;
-    border-radius: 10px;
-}
-
-.label-lists {
-    display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: center;
+    border-bottom: #c9c5c5 solid 1px;
+    padding: 1rem 1rem;
+    box-sizing: border-box;
     width: 100%;
 }
 
-.input-list {
-    padding: 10px;
-    width: 90%;
-    margin-bottom: 5px;
+.list-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
-.checkbox {
-    width: 20px;
-    height: 20px;
+.clear-btn {
+    border: none;
+    background-color: rgb(228, 227, 227);
+    color: rgb(95, 94, 94);
+    cursor: pointer;
+    align-self: center;
+    width: 100%;
+    height: auto;
+    padding: 1em;
+}
+
+.checkbox-container {
+    display: flex;
+}
+
+.menu-container {
+    padding: 0;
+    width: min-content;
+    cursor: move;
+}
+
+.list-element {
+    display: flex;
+    justify-content: space-between;
+    line-height: 2.5rem;
+}
+
+.fas {
+    color: rgb(143, 143, 143);
+}
+
+.fas:hover {
+    color: rgb(184, 62, 62);
 }
